@@ -1,77 +1,120 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CNC Pro Solutions | UK CNC Training & Consultancy</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Training</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #4A90E2, #50E3C2); /* stylish gradient background */
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px 40px 20px;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    header img {
+      width: 180px; /* adjust logo size here */
+      height: auto;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    main h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    main p {
+      font-size: 18px;
+      max-width: 700px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .cta-button {
+      background-color: #fff;
+      color: #4A90E2;
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: 0.3s;
+      text-decoration: none;
+    }
+
+    .cta-button:hover {
+      background-color: #f0f0f0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(0,0,0,0.2);
+      font-size: 14px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 36px;
+      }
+      main h2 {
+        font-size: 28px;
+      }
+      header img {
+        width: 140px;
+      }
+    }
+  </style>
 </head>
 <body>
+  <!-- Header Section -->
+  <header>
+    <h1>Professional Training</h1>
+    <img src="logo.png" alt="Your Logo">
+  </header>
 
-<header class="header">
-  <div class="container">
-    <img src="logo.png" alt="Logo" style="width:300px; height:auto;">
-    <nav>
-      <a href="#services">Services</a>
-      <a href="#about">About</a>
-      <a href="#contact" class="btn">Contact</a>
-    </nav>
-  </div>
-</header>
+  <!-- Main Section -->
+  <main>
+    <h2>Empowering Your Skills for Success</h2>
+    <p>Our professional training programs are designed to enhance your expertise and unlock your full potential. Join us to gain hands-on knowledge, industry insights, and personalized guidance to advance your career.</p>
+    <a href="#contact" class="cta-button">Get Started</a>
+  </main>
 
-<section class="hero">
-  <div class="container">
-    <h1>Professional in house CNC Training & Engineering Support</h1>
-    <p>Helping UK manufacturers enhance productivity, improve quality, and boost CNC capabilities.</p>
-    <a href="#contact" class="btn btn-primary">Get in Touch</a>
-  </div>
-</section>
-
-<section id="services" class="section">
-  <div class="container">
-    <h2>Our Services</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>CNC Training</h3>
-        <p>Operator, setter, and programmer in house training tailored to your machines.</p>
-      </div>
-      <div class="card">
-        <h3>Process Improvement</h3>
-        <p>Cycle time reduction, tooling optimisation, and best practices.</p>
-      </div>
-      <div class="card">
-        <h3>Technical Consultancy</h3>
-        <p>Support in new machines purchasing, costing, payback and manufacturing challenges.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="about" class="section dark">
-  <div class="container">
-    <h2>About CNC Pro Solutions</h2>
-    <p>
-      CNC Pro Solutions is led by an experienced UK-based manufacturing professional
-      with hands-on CNC training and consultancy experience across industry.
-    </p>
-  </div>
-</section>
-
-<section id="contact" class="section">
-  <div class="container">
-    <h2>Contact Us</h2>
-    <form class="contact-form" action="mailto:your-email@domain.com" method="post" enctype="text/plain">
-      <input type="text" placeholder="Your Name" name="name" required />
-      <input type="email" placeholder="Your Email" name="email" required />
-      <textarea placeholder="How can we help?" name="message" required></textarea>
-      <button type="submit" class="btn btn-primary">Send Message</button>
-    </form>
-  </div>
-</section>
-
-<footer class="footer">
-  <p>© 2026 CNC Pro Solutions. All rights reserved. UK-based CNC Training & Consultancy.</p>
-</footer>
-
+  <!-- Footer Section -->
+  <footer>
+    &copy; 2026 Your Company Name. All Rights Reserved.
+  </footer>
 </body>
 </html>
+
